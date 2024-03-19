@@ -80,3 +80,47 @@ h1{
     overflow: hidden;
 }
 }
+.menu{
+    flex-grow: 0;
+}
+
+.menu .menu-ul{
+    column-gap: 10px;
+    align-items: center;
+}
+
+.menu ul li a{
+    color: fuchsia;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: #ff00ff92;
+    text-decoration: underline;
+}
+
+.menu-icon{
+    background-image: url(./../img/hamburger-menu.svg);
+}
+
+.menu-button{
+    border: none;
+}
+
+.menu-button:focus{
+    box-shadow: none;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+@media screen and (max-width: 991px){
+    .menu{
+        position: absolute;
+        top: 152px;
+        background-color: aliceblue;
+        width: 100vw;
+    }
+}
