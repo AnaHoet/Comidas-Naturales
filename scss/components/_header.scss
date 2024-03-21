@@ -1,0 +1,108 @@
+/* header*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    width: 1px;
+}
+@extend %estilos;
+header nav ul{
+    list-style: none;
+    font-size: 20px;
+    color: crimson;
+.grid-galeria{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30vh);
+    /* grid-template-areas: 
+    "img1 img2 img3"
+    "img1 img4 img4"
+    "img5 img5 img5"; */
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.img-3{
+    grid-column: span 1;
+}
+
+.img-4{
+    grid-column: span 2;
+}
+
+.img-5{
+    grid-column: span 3;
+}}
+
+header img{
+    width: 1px;
+}
+
+header nav ul{
+    list-style: none;
+    font-size: 20px;
+    color: crimson;
+.grid-galeria{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30vh);
+    /* grid-template-areas: 
+    "img1 img2 img3"
+    "img1 img4 img4"
+    "img5 img5 img5"; */
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.img-3{
+    grid-column: span 1;
+}
+
+.img-4{
+    grid-column: span 2;
+}
+
+.img-5{
+    grid-column: span 3;
+}
+}
+
+header img{
+    width: 1px;
+}
+
+header nav ul{
+    list-style: none;
+    font-size: 20px;
+    color: crimson;
+.grid-galeria{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30vh);
+    /* grid-template-areas: 
+    "img1 img2 img3"
+    "img1 img4 img4"
+    "img5 img5 img5"; */
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.img-3{
+    grid-column: span 1;
+}
+
+.img-4{
+    grid-column: span 2;
+}
+
+.img-5{
+    grid-column: span 3;
+}
+}
+

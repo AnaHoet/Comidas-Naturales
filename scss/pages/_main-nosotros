@@ -1,0 +1,31 @@
+.card {
+	width: 350px;
+	height: 380px;
+	border-radius: 20px 0px;
+	overflow: hidden;
+	box-shadow: 10px 12px 28px 0px rgba(0,0,0,0.75);
+	position: relative;
+	border-radius: 200px 0;
+	overflow: hidden;
+	img {
+		width: 50%;
+		height: 20px;
+	}
+}
+.contenedor-destacados {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	row-gap: 25px;
+	padding-bottom: 40px;
+}
+     .card-texto{
+@includ flex (colum,center,center,center);
+	//display: flex;
+	//flex-direction: column;
+	//align-items: center;
+	//text-align: center;
+	//justify-content: center;
+	height: 180px;
+	padding: 10px;
+}
